@@ -6,6 +6,7 @@
     "extends": [
         "airbnb-base"
     ],
+    "plugins": ["only-warn"],
     "parserOptions": {
         "ecmaVersion": "latest",
         "sourceType": "module"

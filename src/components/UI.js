@@ -130,7 +130,10 @@ export default class UI {
   }
 
   static createHourlyBoxes() {
-    const hourlyWeather = document.querySelector('.hourly-weather');
+    const hourlyWeather = document.createElement('div');
+    const hourlySection = document.querySelector('.hourly-section');
+    hourlyWeather.classList.add('hourly-weather');
+    hourlySection.appendChild(hourlyWeather);
 
     for (let i = 0; i < 24; i++) {
       const hourlyBox = document.createElement('div');
@@ -145,6 +148,10 @@ export default class UI {
   }
 
   static loadHourlyWeather(data) {
+    const hourlyWeather = document.querySelector('.hourly-weather');
+    if (hourlyWeather) {
+      hourlyWeather.remove();
+    }
     UI.createHourlyBoxes();
     const hourlyBoxes = document.querySelectorAll('.hourly-box');
 
@@ -156,44 +163,52 @@ export default class UI {
   }
 
   static createDailyWeather() {
-    const dailyWeather = document.querySelector('.daily-section');
+    const dailyWeather = document.createElement('div');
+    const body = document.querySelector('body');
+    dailyWeather.classList.add('daily-section');
+    body.appendChild(dailyWeather);
+
     dailyWeather.innerHTML += `
     <table>
       <colgroup>
       <col><col><col><col>
       </colgroup>
-      <thead>
-        <td colspan="2">DAY</td>
-        <th>CHANCE OF RAIN</th>
+      <thead class="hide">
+        <th colspan="2">DAY</th>
+        <th class="hide">CHANCE OF RAIN</th>
         <th>TEMPERATURE</th>
       </thead>
       <tbody>
         <tr>
-          <td></td><td></td><td></td><td></td>
+          <td></td><td></td><td class="hide"></td><td></td>
         </tr>
         <tr>
-          <td></td><td></td><td></td><td></td>
+          <td></td><td></td><td class="hide"></td><td></td>
         </tr>
         <tr>
-          <td></td><td></td><td></td><td></td>
+          <td></td><td></td><td class="hide"></td><td></td>
         </tr>
         <tr>
-          <td></td><td></td><td></td><td></td>
+          <td></td><td></td><td class="hide"></td><td></td>
         </tr>
         <tr>
-          <td></td><td></td><td></td><td></td>
+          <td></td><td></td><td class="hide"></td><td></td>
         </tr>
         <tr>
-          <td></td><td></td><td></td><td></td>
+          <td></td><td></td><td class="hide"></td><td></td>
         </tr>
         <tr>
-          <td></td><td></td><td></td><td></td>
+          <td></td><td></td><td class="hide"></td><td></td>
         </tr>
       </tbody>
     </table>`;
   }
 
   static loadDailyWeather(data) {
+    const oldTable = document.querySelector('table');
+    if (oldTable) {
+      oldTable.remove();
+    }
     UI.createDailyWeather();
     const rows = document.querySelectorAll('tbody tr');
 
