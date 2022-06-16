@@ -8,7 +8,7 @@
   <p align="center">
     A UI-friendly website to search for any city's weather in the world, using OpenWeather API.
     <br />
-    <a href="https://google.com">View Demo</a> 👈
+    <a href="https://adp11.github.io/weather/">View Demo</a> 👈
   </p>
 </div>
 
@@ -37,8 +37,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Demo Picture 1][product-screenshot1]](https://google.com)
-[![Demo Picture 2][product-screenshot2]](https://google.com)
+[![Demo Picture 1][product-screenshot1]](https://adp11.github.io/weather/)
+[![Demo Picture 2][product-screenshot2]](https://adp11.github.io/weather/)
 
 Some features I included:
 - Search
@@ -81,7 +81,7 @@ To get a local copy up and running follow these simple example steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-[![Demo Gif][product-demo]](https://google.com)
+[![Demo Gif][product-demo]](https://adp11.github.io/weather/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -91,7 +91,7 @@ To get a local copy up and running follow these simple example steps.
 
 Andrew Pham - [@facebook](https://www.facebook.com/profile.php?id=100008330377004)
 
-Project Link: [https://github.com/adp11/weather](https://github.com/adp11/weather)
+Project Link: [https://github.com/adp11/weather](https://adp11.github.io/weather/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
