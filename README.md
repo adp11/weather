@@ -3,10 +3,10 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <img src="./images/logo.png" alt="Logo" width="80" height="80">
+  <img src="./dist/images/logo.png" alt="Logo" width="80" height="80">
   <h3 align="center">TheeWeather</h3>
   <p align="center">
-    A UI-friendly website to search for any city's weather in the world, using OpenWeather's API.
+    A UI-friendly website to search for any city's weather in the world, using OpenWeather API.
     <br />
     <a href="https://google.com">View Demo</a> 👈
   </p>
@@ -98,6 +98,6 @@ Project Link: [https://github.com/adp11/weather](https://github.com/adp11/weathe
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[product-screenshot1]: ./images/demo1.png
-[product-screenshot2]: ./images/demo2.png
-[product-demo]: ./images/theeweather.gif
+[product-screenshot1]: ./dist/images/demo1.png
+[product-screenshot2]: ./dist/images/demo2.png
+[product-demo]: ./dist/images/theeweather.gif
