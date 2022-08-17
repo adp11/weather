@@ -4,9 +4,9 @@
 <br />
 <div align="center">
   <img src="./dist/images/logo.png" alt="Logo" width="80" height="80">
-  <h3 align="center">TheeWeather</h3>
+  <h3 align="center">theWeather</h3>
   <p align="center">
-    A UI-friendly website to search for any city's weather in the world, using OpenWeather API.
+    A UI-friendly web application to search for any city's weather in the world, using OpenWeather API.
     <br />
     <a href="https://adp11.github.io/weather/">View Demo</a> 👈
   </p>
